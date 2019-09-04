@@ -1,9 +1,10 @@
 {
     "name": "trevo-ui",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "",
     "main": "/dist/trevo.js",
     "scripts": {
+        "prepublishOnly": "npm run build",
         "build": "webpack --mode production",
         "clean": "rm -rf dist && rm -rf node_modules"
     },
