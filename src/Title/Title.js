@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 const Title = props => {
     return (
         <Fragment>
-            <h1>{props.children}</h1>;
+            <h1>{props.children}</h1>
             <style jsx>
                 {`
                     h1 {
